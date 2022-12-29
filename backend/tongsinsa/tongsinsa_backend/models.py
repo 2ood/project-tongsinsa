@@ -24,6 +24,7 @@ class CustomUser(AbstractUser):
     last_name = None
 
 class Event(models.Model):
+    event_uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     event_generated = models.DateTimeField(default=timezone.now, editable=False)
     writer= models.CharField(max_length=150)
     title = models.CharField(max_length=255)
@@ -34,6 +35,7 @@ class Event(models.Model):
     is_delete = models.BooleanField(default=False)
 
 class list(models.Model):
+    list_uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     user = models.ForeignKey('CustomUser',on_delete=models.CASCADE)
     event = models.ForeignKey('Event',on_delete=models.CASCADE)
     others = models.JSONField()
