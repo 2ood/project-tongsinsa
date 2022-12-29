@@ -38,4 +38,4 @@ class list(models.Model):
     event = models.ForeignKey('Event',on_delete=models.CASCADE)
     others = models.JSONField()
     is_delete = models.BooleanField(default=False)
-    
+    registered_in = models.DateTimeField(default=timezone.now, editable=False)
