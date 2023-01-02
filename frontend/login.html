@@ -7,14 +7,21 @@
     </head>
 
     <body>
-        <h1>TONGSINSA</h1>
-        <h2>LOGIN</h2>
-        <img src="picture.tongsinsa/lock.JPG" class="lock"></img>
-        <img src="picture.tongsinsa/profile.JPG" class="profile"></img>
-        <input type="text" placeholder="  아이디를 입력하세요." class="id">
-        <input type="password" placeholder="  비밀번호를 입력하세요." class="pw">
-        <input type="submit" class="submit" value="로그인">
-
-        <input type="text" placeholder="  검색어를 입력하세요." class="search">
+        <nav>
+            <h1 id="logo-text">TONGSINSA</h1>
+            <div id="right-top-corner">
+                <input type="text" placeholder="검색어를 입력하세요." id="search">
+                <img src="picture.tongsinsa/profile.JPG" id="profile">
+            </div>
+        </nav>
+        <main>
+            <div id="login-title-wrapper">
+                <img src="picture.tongsinsa/lock.JPG" id="lock">
+                <h2 id="login-title">LOGIN</h2>
+            </div>
+            <input type="text" placeholder="  아이디를 입력하세요." id="id">
+            <input type="password" placeholder="  비밀번호를 입력하세요." id="pw">
+            <button type="submit" class="submit">로그인</button>
+        </main>
     </body>
 </html>
