@@ -1,0 +1,143 @@
+
+  h1{
+    position: absolute;
+    width: 356px;
+    height: 73px;
+    left: 50px;
+    top: 60px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;    
+    color: #000000;
+    
+  }
+
+  h2{
+    position: absolute;
+    width: 278px;
+    height: 109px;
+    left: 478px;
+    top: 204px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 109px;
+    
+    color: #6F6D6D;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .lock{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 368px;
+    top: 280px;
+    
+  }
+
+  
+  .id{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 663px;
+    height: 72px;
+    left: 388px;
+    top: 401px;
+
+    background: #FFFFFF;
+
+    border: 2.5px solid #DF3127;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .pw{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 663px;
+    height: 72px;
+    left: 389px;
+    top: 501px;
+
+    background: #FFFFFF;
+
+    border: 2.5px solid #DF3127;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+  }
+
+  .submit{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 663px;
+    height: 90px;
+    left: 388px;
+    top: 622px;
+
+    background: #DF3127;
+
+    border: 2.5px solid #DF3127;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+
+  }
+
+  .search{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 392px;
+    height: 72px;
+    left: 849px;
+    top: 90px;
+
+    background: #FFFFFF;
+
+    border: 1.2px solid #DF3127;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #6F6D6D;
+
+  }
+
+
+  .profile{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 1282px;
+    top: 50px;
+
+  }
+ 
+  
